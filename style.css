@@ -77,12 +77,40 @@ nav {
     }
   }
 
- .premier-league{
-  width: 200px;
-  margin-top: 150px;
+
+
+
+ .league-oreder{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
  }
 
- .laliga{
-  width: 200px;
-  
+ .league{
+  margin-top: 200px;
  }
+
+
+ .league img{
+  height: 200px;
+  width: 200px;
+ }
+
+ .league_btn{
+  position: relative;
+left: 20%;
+ }
+
+ .league_btn button{
+ 
+  text-align: center;
+  margin-top: 70px;
+  background-color: white;
+  border-color: rgb(43, 178, 223);
+  border-width: 2px;
+  border-radius: 2px;
+  width: 100px;
+  height: 70px;
+ }
+
+
